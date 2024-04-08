@@ -30,11 +30,11 @@ This did not result in an error however it did not print out the contents within
 ##### cd:
 Absolute Path:/home/codespace
 This did not produce an error because it changed the directory to ~/lecture1’
-
 ![Image](cd3.png)
 ##### ls:
 Absolute path: /home/codespace/lecture1
 This resulted in an error because in the directory ‘/home/codespace/lecture1’ there is no file called lecture1
+
 ![Image](ls3.png)
 ##### cat:
 Absolute path: /home/codespace/lecture1
