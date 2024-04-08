@@ -16,6 +16,7 @@ I believe this produced an error because ‘cat’ means print the contents of o
 ##### cd:
 Absolute path: /workspaces/lecture1
 This does not produce an error because it changed the directory to ‘~’ which is the argument which is /home/codespace
+
 ![Image](cd2.png)
 ##### ls:
 Absolute path: /home/codespace
