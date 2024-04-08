@@ -2,6 +2,7 @@
 ##### cd:
 Absolute path: /workspaces/lecture1
 This did not produce an error because ‘cd’ means to change the directory. Since there is no argument, it changed the directory to /home/codespace
+
 ![Image](cd1.png)
 ##### ls:
 Absolute path: /home/codespace
