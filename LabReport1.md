@@ -46,11 +46,14 @@ This is the output because ~ was an argument and it just lists out the contents 
 This does not produce an error because it list out the content of the directory
 
 ![Image](ls2.png)
+
 ##### cat:
 Absolute path: /home/codespace
-This did not result in an error however it did not print out the contents within this argument
+
+This produced an error because 
 
 ![Image](cat2.png)
+
 #### 3. Share an example of using the command with a path to a file as an argument.
 ##### cd:
 Absolute Path:/home/codespace
