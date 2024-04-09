@@ -1,4 +1,4 @@
-During lecture and the lab, I have learned many simple filesystem commands such as pwd, which allows us to see the current working directory, cd, which allows us to change the current directory and ls, which lists out the contents of a directory.
+During lecture and the lab, I have learned many simple filesystem commands such as pwd, which allows us to see the current working directory, cd, which allows us to change the current directory and ls, which lists out the contents of a directory. In this lab, we had to use and show what each commands did.
 
 
 
