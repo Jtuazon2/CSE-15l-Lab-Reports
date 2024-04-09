@@ -4,7 +4,7 @@ During lecture and the lab, I 1have learned many simple filesystem commands such
 
 #### 1. Share an example of using the command with no arguments.
 ##### cd:
-Absolute path: /workspaces/lecture1
+Absolute path before command was ran: /workspaces/lecture1
 
 This output was produced because changing the cd with no arguments just changes it to /home
 
@@ -12,7 +12,7 @@ This did not produce an error because ‘cd’ means to change the directory. Si
 
 ![Image](cd1.png)
 ##### ls:
-Absolute path: /home/codespace
+Absolute path before command was ran: /home/codespace
 
 This output was produced because 'ls' lists the contents of what is inside of the working directory.
 
@@ -20,7 +20,7 @@ This output was produced because 'ls' lists the contents of what is inside of th
 
 ![Image](ls1.png)
 ##### cat: 
-Absolute path: /home/codespace
+Absolute path before command was ran: /home/codespace
 
 This was the output because cat needs an argument of a file name in order to print out the contents of a certtain file.
 
@@ -30,7 +30,7 @@ I believe this produced an error because ‘cat’ means print the contents of o
 
 #### 2. Share an example of using the command with a path to a directory as an argument.
 ##### cd:
-Absolute path: /workspaces/lecture1
+Absolute path before command was ran: /workspaces/lecture1
 
 This was the output because ~ is the same as /home which is a directory and the working directory changed to ~
 
@@ -39,7 +39,7 @@ This does not produce an error because it changed the directory to ‘~’ which
 ![Image](cd2.png)
 ##### ls:
 
-Absolute path: /home/codespace
+Absolute path before command was ran: /home/codespace
 
 This is the output because ~ was an argument and it just lists out the contents within ~
 
@@ -48,7 +48,7 @@ This does not produce an error because it list out the content of the directory
 ![Image](ls2.png)
 
 ##### cat:
-Absolute path: /home/codespace
+Absolute path before comand was ran: /home/codespace
 
 I believe this output was produced because in the argument, it looked for a file called /home however it is a directory not a file.
 
@@ -58,7 +58,7 @@ This produced an error because '/home' is a directory not a file and therefore c
 
 #### 3. Share an example of using the command with a path to a file as an argument.
 ##### cd:
-Absolute Path:/home/codespace
+Absolute Path before command was ran:/home/codespace
 
 This output was produced because as the argument 'lecture1' it concatanated '~' with lecture1 and changed its directory to that.
 
@@ -67,7 +67,7 @@ This did not produce an error because it changed the directory to ~/lecture1’
 ![Image](cd3.png)
 ##### ls:
 
-Absolute path: /home/codespace/lecture1
+Absolute path before command was ran: /home/codespace/lecture1
 
 This output was produced because in the argument, it is looking for lecture1 inside of lecture1 however lecture1 does not exist.
 
@@ -75,7 +75,7 @@ This resulted in an error because in the directory ‘/home/codespace/lecture1�
 
 ![Image](ls3.png)
 ##### cat:
-Absolute path: /home/codespace/lecture1
+Absolute path before command was ran: /home/codespace/lecture1
 
 This output was produced because it is looking at the contents inside lecture1 however lecture1 does not exist inside lectire1.
 
