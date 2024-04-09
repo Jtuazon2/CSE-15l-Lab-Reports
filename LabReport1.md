@@ -32,7 +32,7 @@ I believe this produced an error because ‘cat’ means print the contents of o
 ##### cd:
 Absolute path: /workspaces/lecture1
 
-This was the output because '~' is the same as /home which is a directory and the working directory changed to '~'
+This was the output because ~ is the same as /home which is a directory and the working directory changed to ~
 
 This does not produce an error because it changed the directory to ‘~’ which is the argument which is /home/codespace
 
