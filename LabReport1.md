@@ -5,7 +5,9 @@ During lecture and the lab, I have learned many simple filesystem commands such 
 #### 1. Share an example of using the command with no arguments.
 ##### cd:
 Absolute path: /workspaces/lecture1
+
 This output was produced because changing the cd with no arguments just changes it to /home
+
 This did not produce an error because ‘cd’ means to change the directory. Since there is no argument, it changed the directory to /home/codespace
 
 ![Image](cd1.png)
