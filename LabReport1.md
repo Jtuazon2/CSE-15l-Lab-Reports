@@ -1,4 +1,4 @@
-During lecture and the lab, I have learned many simple filesystem commands such as pwd, which allows us to see the current working directory, cd, which allows us to change the current directory and ls, which lists out the contents of a directory. In this lab, we had to use and show what each commands did.
+During lecture and the lab, I 1have learned many simple filesystem commands such as pwd, which allows us to see the current working directory, cd, which allows us to change the current directory and ls, which lists out the contents of a directory. In this lab, we had to use and show what each commands did.
 
 
 
@@ -27,17 +27,22 @@ This was the output because cat needs an argument of a file name in order to pri
 I believe this produced an error because ‘cat’ means print the contents of one or more files given by the paths. Without an argument, there is nothing to produce.
 
 ![Image](cat1.png)
+
 #### 2. Share an example of using the command with a path to a directory as an argument.
 ##### cd:
 Absolute path: /workspaces/lecture1
 
-
+This was the output because '~' is the same as /home which is a directory and the working directory changed to '~'
 
 This does not produce an error because it changed the directory to ‘~’ which is the argument which is /home/codespace
 
 ![Image](cd2.png)
 ##### ls:
+
 Absolute path: /home/codespace
+
+This is the output because '~' was an argument and it just lists out the contents within '~'
+
 This does not produce an error because it list out the content of the directory
 
 ![Image](ls2.png)
