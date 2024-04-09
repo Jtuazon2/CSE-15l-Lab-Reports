@@ -77,7 +77,7 @@ This resulted in an error because in the directory ‘/home/codespace/lecture1�
 ##### cat:
 Absolute path: /home/codespace/lecture1
 
-This output was produced because it is looking at the contents 
+This output was produced because it is looking at the contents inside lecture1 however lecture1 does not exist inside lectire1.
 
 This resulted in an error because in the directory ‘/home/codespace/lecture1’ there is no lecture1 and therefore cannot list out the contents that is within ‘lecture1’
 
