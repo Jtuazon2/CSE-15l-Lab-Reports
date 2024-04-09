@@ -41,7 +41,7 @@ This does not produce an error because it changed the directory to ‘~’ which
 
 Absolute path: /home/codespace
 
-This is the output because '~' was an argument and it just lists out the contents within '~'
+This is the output because ~ was an argument and it just lists out the contents within ~
 
 This does not produce an error because it list out the content of the directory
 
