@@ -50,22 +50,35 @@ This does not produce an error because it list out the content of the directory
 ##### cat:
 Absolute path: /home/codespace
 
-This produced an error because 
+I believe this output was produced because in the argument, it looked for a file called /home however it is a directory not a file.
+
+This produced an error because '/home' is a directory not a file and therefore cannot list the contents inside.
 
 ![Image](cat2.png)
 
 #### 3. Share an example of using the command with a path to a file as an argument.
 ##### cd:
 Absolute Path:/home/codespace
+
+This output was produced because as the argument 'lecture1' it concatanated '~' with lecture1 and changed its directory to that.
+
 This did not produce an error because it changed the directory to ~/lecture1’
 
 ![Image](cd3.png)
 ##### ls:
+
 Absolute path: /home/codespace/lecture1
-This resulted in an error because in the directory ‘/home/codespace/lecture1’ there is no file called lecture1
+
+This output was produced because in the argument, it is looking for lecture1 inside of lecture1 however lecture1 does not exist.
+
+This resulted in an error because in the directory ‘/home/codespace/lecture1’ there is no file called lecture1 in lecture1
 
 ![Image](ls3.png)
 ##### cat:
 Absolute path: /home/codespace/lecture1
+
+This output was produced because it is looking at the contents 
+
 This resulted in an error because in the directory ‘/home/codespace/lecture1’ there is no lecture1 and therefore cannot list out the contents that is within ‘lecture1’
+
 ![Image](cat3.png)
