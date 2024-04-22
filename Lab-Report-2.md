@@ -1,4 +1,4 @@
 ## ChatServer code and using /add-message
 ![image](ChatServer.png)
-![image](addmessage1.png)
-![image](addmessage2.png)
+![image](ChatServerAddmessage1.png)
+![image](ChatServerAddmessage2.png)
