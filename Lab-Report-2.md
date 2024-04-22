@@ -1,5 +1,6 @@
 ## ChatServer code and using /add-message (part 1)
 ![image](ChatServer.png)
+![image](runningadd-message.png)
 
 ![image](add-message1.png)
 The methods that are called in this screenshot is:
