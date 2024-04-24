@@ -18,7 +18,16 @@ The value of any relavant fields changed because a new value was inputed.
 
 ## Part 2
 
+'ls' with absolute path to private key: 
+![image](lsabspath.png)
+
+'ls' to with absolute path to public key for ieng6:
+![imaga](lsieng6.png)
+
+log in to ieng6 no password:
+![image](ieng6nopass.png)
+
 
 
 ## Part 3 - Something learned in labs from week 2 or 3
-During week 2 and 3 from the labs I have done with either my groupmates or doing the lab report is connecting to a server and being able to send the same server to my groupmates. This was very interesting because Throughout my educational career, I have never learned how this worked.
+During week 2 and 3 from the labs I have done with either my groupmates or doing the lab report is connecting to a local server and manipulate what is in that server such as the /increment or /add?count=(number) and being able to send the same server to my groupmates. This was very interesting because Throughout my educational career, I have never learned how this worked.
