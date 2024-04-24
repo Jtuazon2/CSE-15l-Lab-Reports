@@ -1,7 +1,7 @@
 ## ChatServer code and using /add-message (part 1)
 ![image](ChatServer.png)
-![image](runningadd-message.png)
 ![image](classChatServer.png)
+![image](runningadd-message.png)
 
 ![image](add-message1.png)
 The methods that are called in this screenshot is The methods that are called in this screenshot is: The method that is called in this screenshot is handleRequest that takes in a url as a parameter. This method checks for arguments in the server which is the '/add-message?s=(message)&user=(name) and splits it at the "=" and "&. This allows a new message to be displayed.
