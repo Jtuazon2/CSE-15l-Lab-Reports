@@ -6,11 +6,34 @@
    - An input that does not induce a failure asa JUnit test is using the array `{2.0, ,4.0, 6.0, 8.0}` for the average without lowest because it does not cause a failure in the test case 
 
 5. The sympton, as the output of running the two tests above (provide a screenshot -- one test should pass and the other should fail)
+   ![image](image for the fail)   
+   ![image](image for the pass)
    
 
-7. The bug, as the before-and-after code change required tp fix it (as two code blocks in markdown)
+7. The bug, as the before-and-after code change required to fix it (as two code blocks in markdown)
+old code that causes the bug:
+ ` static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }`
 
-8. Briefly describe (2-3 sentences) why the fix addresses the issue
+
+new code: 
+  `static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }`
+
+
+
+9. Briefly describe (2-3 sentences) why the fix addresses the issue
+    - this fixed the issue because
 
 
 ## part 2 - Researching Commands
