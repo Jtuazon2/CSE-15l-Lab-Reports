@@ -180,7 +180,9 @@ output
 ```find: -group: developer: no such group```
 
 CITE your sources via a url or description on where you found it.
+
 https://math2001.github.io/article/bashs-find-command/
+
 https://www.tecmint.com/35-practical-examples-of-linux-find-command/
 
 
