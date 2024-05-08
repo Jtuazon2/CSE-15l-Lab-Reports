@@ -69,14 +69,55 @@ choose either less, find, and grep and find 4 interesting command line options o
 
 The command `find` recursiely traverse the given path and lists all files in that directory and subdiretctories.
 
-1. `find -s` causes `find` to traverse he file hierarchy in lexicographical  order
+1. `find type` causes `find` select files
+```find -type f``` - this slecets the files that is in the directory
 
-2. `find -empty` checks if a current directory is empty and returns true
+output:
+```
+./chapter-13.4.txt
+./chapter-13.5.txt
+./chapter-13.1.txt
+./chapter-13.2.txt
+./chapter-13.3.txt
+./chapter-3.txt
+./chapter-2.txt
+./chapter-1.txt
+./chapter-5.txt
+./chapter-6.txt
+./chapter-7.txt
+./chapter-9.txt
+./chapter-8.txt
+./preface.txt
+./chapter-12.txt
+./chapter-10.txt
+./chapter-11.txt
+```
+```find . -type d``` - this selects the directories that was used
 
-3. `find -delete` Deletes found files and/or directories
+output:
+```
+./.vscode/extensions/redhat.java-1.30.0-darwin-arm64/jre/17.0.10-macosx-aarch64/legal/java.security.sasl
+./.vscode/extensions/redhat.java-1.30.0-darwin-arm64/jre/17.0.10-macosx-aarch64/legal/jdk.net
+./.vscode/extensions/redhat.java-1.30.0-darwin-arm64/jre/17.0.10-macosx-aarch64/legal/jdk.jsobject
+./.vscode/extensions/redhat.java-1.30.0-darwin-arm64/jre/17.0.10-macosx-aarch64/legal/jdk.zipfs
+./.vscode/extensions/redhat.java-1.30.0-darwin-arm64/jre/17.0.10-macosx-aarch64/legal/jdk.dynalink
+./.vscode/extensions/redhat.java-1.30.0-darwin-arm64/jre/17.0.10-macosx-aarch64/legal/java.compiler
+./.vscode/extensions/redhat.java-1.30.0-darwin-arm64/jre/17.0.10-macosx-aarch64/legal/java.xml
+```
 
-4. `find -x` Prevents `find` from descending into directories that have a device number different than that of the file from which the descent began.
+
+3. `find -empty` checks if a current directory is empty
+  ``` find /Users/josephtuazon/docsearch/technical/911report -type f -empty```
+
+   ```find /Users/josephtuazon/docsearch/technical/biomed -type f -empty```
+
+   output: there is no that is printed because there are no empty files or directories
+
+5. `find -delete` Deletes found files and/or directories
+
+6. `find -x` Prevents `find` from descending into directories that have a device number different than that of the file from which the descent began.
 
 CITE your sources via a url or description on where you found it.
+https://math2001.github.io/article/bashs-find-command/
 
 
