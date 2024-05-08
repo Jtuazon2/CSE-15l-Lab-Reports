@@ -73,6 +73,7 @@ The command `find` recursiely traverse the given path and lists all files in tha
 ```find -type f``` - this slecets the files that is in the directory
 
 output:
+
 ```
 ./chapter-13.4.txt
 ./chapter-13.5.txt
@@ -92,6 +93,7 @@ output:
 ./chapter-10.txt
 ./chapter-11.txt
 ```
+
 ```find . -type d``` - this selects the directories that was used
 
 output:
@@ -106,16 +108,17 @@ output:
 ```
 
 
-3. `find -empty` checks if a current directory is empty
+2. `find -empty` checks if a current directory is empty
+
   ``` find /Users/josephtuazon/docsearch/technical/911report -type f -empty```
 
    ```find /Users/josephtuazon/docsearch/technical/biomed -type f -empty```
 
    output: there is no that is printed because there are no empty files or directories
 
-5. `find -delete` Deletes found files and/or directories
+3. `find -delete` Deletes found files and/or directories
 
-6. `find -x` Prevents `find` from descending into directories that have a device number different than that of the file from which the descent began.
+4. `find -x` Prevents `find` from descending into directories that have a device number different than that of the file from which the descent began.
 
 CITE your sources via a url or description on where you found it.
 https://math2001.github.io/article/bashs-find-command/
