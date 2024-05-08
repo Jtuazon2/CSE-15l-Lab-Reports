@@ -117,9 +117,57 @@ output:
 
    output: there is no that is printed because there are no empty files or directories
 
-3. `find -delete` Deletes found files and/or directories
+3. `find -name` Gets the name of file names
 
-4. `find /home -user` - finds files made by the user
+```find . -name *.txt```
+output:
+```
+./plos/journal.pbio.0020297.txt
+./plos/pmed.0020206.txt
+./plos/pmed.0020212.txt
+./plos/pmed.0020216.txt
+./plos/journal.pbio.0030094.txt
+./plos/journal.pbio.0020046.txt
+./plos/pmed.0020028.txt
+./plos/journal.pbio.0020052.txt
+./plos/pmed.0020148.txt
+./plos/pmed.0020160.txt
+./plos/pmed.0010048.txt
+./plos/pmed.0010060.txt
+./plos/journal.pbio.0030137.txt
+./plos/journal.pbio.0030136.txt
+./plos/pmed.0010061.txt
+./plos/pmed.0010049.txt
+./plos/pmed.0020161.txt
+./plos/journal.pbio.0020127.txt
+./plos/pmed.0020149.txt
+./plos/journal.pbio.0020133.txt
+```
+
+
+```find . -name chapter-*.txt```
+
+output:
+```
+./911report/chapter-13.4.txt
+./911report/chapter-13.5.txt
+./911report/chapter-13.1.txt
+./911report/chapter-13.2.txt
+./911report/chapter-13.3.txt
+./911report/chapter-3.txt
+./911report/chapter-2.txt
+./911report/chapter-1.txt
+./911report/chapter-5.txt
+./911report/chapter-6.txt
+./911report/chapter-7.txt
+./911report/chapter-9.txt
+./911report/chapter-8.txt
+./911report/chapter-12.txt
+./911report/chapter-10.txt
+./911report/chapter-11.txt
+```
+
+5. `find /home -user` - finds files made by the user
 
 ```find /home -josephtuazon```
 
