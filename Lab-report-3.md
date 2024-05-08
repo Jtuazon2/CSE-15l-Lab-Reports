@@ -35,6 +35,7 @@ Pass:
    
 
 7. The bug, as the before-and-after code change required to fix it (as two code blocks in markdown)
+
 old code that causes the bug:
 ```
   static int[] reversed(int[] arr) {
