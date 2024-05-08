@@ -27,8 +27,8 @@ code:
 
 
 4. The sympton, as the output of running the two tests above (provide a screenshot -- one test should pass and the other should fail)
-   ![image](image for the fail)   
-   ![image](image for the pass)
+   ![image](JUnit-failure.png)   
+   ![image](JUnit-pass.png)
    
 
 7. The bug, as the before-and-after code change required to fix it (as two code blocks in markdown)
