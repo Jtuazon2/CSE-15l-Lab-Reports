@@ -70,6 +70,7 @@ choose either less, find, and grep and find 4 interesting command line options o
 The command `find` recursiely traverse the given path and lists all files in that directory and subdiretctories.
 
 1. `find type` causes `find` select files
+
 ```find -type f``` - this slecets the files that is in the directory
 
 output:
@@ -118,9 +119,20 @@ output:
 
 3. `find -delete` Deletes found files and/or directories
 
-4. `find -x` Prevents `find` from descending into directories that have a device number different than that of the file from which the descent began.
+4. `find /home -user` - finds files made by the user
+
+```find /home -josephtuazon```
+
+output: no output because not file is made by josephtuazon
+
+```find /home -group developer```
+
+output
+
+```find: -group: developer: no such group```
 
 CITE your sources via a url or description on where you found it.
 https://math2001.github.io/article/bashs-find-command/
+https://www.tecmint.com/35-practical-examples-of-linux-find-command/
 
 
