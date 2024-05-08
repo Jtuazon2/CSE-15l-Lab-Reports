@@ -27,7 +27,9 @@ code:
 
 
 4. The sympton, as the output of running the two tests above (provide a screenshot -- one test should pass and the other should fail)
-   ![image](JUnit-failure.png)   
+Fail: 
+   ![image](JUnit-failure.png)
+Pass: 
    ![image](JUnit-Pass.png)
    
 
