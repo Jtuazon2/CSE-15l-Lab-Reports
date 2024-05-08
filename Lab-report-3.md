@@ -12,7 +12,7 @@
 ```
 
 
-3. An input that doesn't induce a failure as a JUnit test and any associated code
+2. An input that doesn't induce a failure as a JUnit test and any associated code
    - An input that does not induce a failure asa JUnit test is using the array `{2.0, ,4.0, 6.0, 8.0}` for the average without lowest because it does not cause a failure in the test case
   
 code:
@@ -26,7 +26,7 @@ code:
 ```
 
 
-4. The sympton, as the output of running the two tests above (provide a screenshot -- one test should pass and the other should fail)
+3. The sympton, as the output of running the two tests above (provide a screenshot -- one test should pass and the other should fail)
 
 Fail: 
    ![image](JUnit-failure.png)
@@ -34,7 +34,7 @@ Pass:
    ![image](JUnit-Pass.png)
    
 
-7. The bug, as the before-and-after code change required to fix it (as two code blocks in markdown)
+4. The bug, as the before-and-after code change required to fix it (as two code blocks in markdown)
 
 old code that causes the bug:
 ```
@@ -59,7 +59,7 @@ new code:
 ```
 
 
-9. Briefly describe (2-3 sentences) why the fix addresses the issue
+5. Briefly describe (2-3 sentences) why the fix addresses the issue
     - this fixed the issue because in the old code, it was trying to update the array with an empty array which was wrong because we needed to update the array with new values. What I did is I changed it so that it would update the new array with the contents of the old array however in reverse.
 
 
@@ -167,7 +167,7 @@ output:
 ./911report/chapter-11.txt
 ```
 
-5. `find /home -user` - finds files made by the user
+4. `find /home -user` - finds files made by the user
 
 ```find /home -josephtuazon```
 
