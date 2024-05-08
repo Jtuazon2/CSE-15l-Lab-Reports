@@ -67,6 +67,16 @@ new code:
 
 choose either less, find, and grep and find 4 interesting command line options or alternate ways to use the single command you choose. For each of those options give 2 examples of using it on files and directories from ./technical. show example as a code block. 
 
+The command `find` recursiely traverse the given path and lists all files in that directory and subdiretctories.
+
+1. `find -s` causes `find` to traverse he file hierarchy in lexicographical  order
+
+2. `find -empty` checks if a current directory is empty and returns true
+
+3. `find -delete` Deletes found files and/or directories
+
+4. `find -x` Prevents `find` from descending into directories that have a device number different than that of the file from which the descent began.
+
 CITE your sources via a url or description on where you found it.
 
 
