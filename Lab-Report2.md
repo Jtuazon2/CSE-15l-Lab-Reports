@@ -4,18 +4,18 @@
 ![image](runningadd-message.png)
 
 ![image](add-message1.png)
-The method that is called in this screenshot is handleRequest that takes in a url as a parameter. This method checks for arguments in the server which is the '/add-message?s=(message)&user=(name) and splits it at the "=" and "&. This allows a new message to be displayed.
+The method that is called in this screenshot is ```handleRequest``` that takes in a url as a parameter. This method checks for arguments in the server which is the '/add-message?s=(message)&user=(name) and splits it at the "=" and "&. This allows a new message to be displayed.
 
-The relavent arguments is the url and the values of the relavant fields of the class are Strings for the values and arguments.
+The relavent arguments is the url and the values of the relavant fields of the class are Strings for the values and arguments is There are also relevant variables such as ```user``` and ```message``` because both of these variables are updated with whatever is inputed in the query.
 
-The value of any relavant fields changed because a new value was inputed.
+The value of any relavant fields changed is the ```User``` and ```message``` because they are being updated when new parameters are being passed in the server. 
 ![image](add-message2.png)
-The method that is called in this screenshot is handleRequest that takes in a url as a parameter. This method checks for arguments in the server which is the '/add-message?s=(message)&user=(name) and splits it at the "=" and "&. This allows a new message to be displayed. There is another step in this screenshot because it checks if a message and user is not empty and it adds a new line when new arguments are passed.
+The method that is called in this screenshot is ```handleRequest``` that takes in a url as a parameter. This method checks for arguments in the server which is the '/add-message?s=(message)&user=(name) and splits it at the "=" and "&. This allows a new message to be displayed. There is another step in this screenshot because it checks if a message and user is not empty and it adds a new line when new arguments are passed.
 
 
-The relavent arguments is the url and the values of the relavant fields of the class are Strings for the values and arguments.
+The relavent arguments is the url and the values of the relavant fields of the class are Strings for the values and arguments. There are also relevant variables such as ```user``` and ```message``` because both of these variables are updated with whatever is inputed in the query. There is also a method that checks if ```User``` and ```message``` is not null and makes a new line for a new message that is inputed.
 
-The value of any relavant fields changed because a new value was inputed.
+The value of any relavant fields changed is the ```user``` and ```message``` because new parameters are being inputed which changed the previous values of ```user``` and ```message```.
 
 ## Part 2
 
