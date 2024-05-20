@@ -26,6 +26,8 @@ summary:
 
 **Edit the code file to fix the failing test**
 
+![image](Lab7-vim-edit.png)
+
 Key pressed/commands: `vim ListExamples.java` (to use the vim editor to correct the code), pressed `<down>` around 17 times (to go to the correct line the error was on), pressed `<i>` to enter insert mode (to change the code), `<right>` around 4 times (to move the cursor to the correct spot), pressed `<delete>` to delete the characters (to remove the wrong part of the code), pressed `<2>` (the correct index number to updtate), pressed `<esc>` to exit insert mode pressed `<:>` and typed `wq` to save the changes.
 
 Summary:
