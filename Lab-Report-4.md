@@ -9,4 +9,4 @@
 
 **Run the tests, demonstrating that they fail**
 
-![image](lab7-fail.png)
+![image](Lab7-fail.png)
