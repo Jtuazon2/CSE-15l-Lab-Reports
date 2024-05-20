@@ -34,7 +34,7 @@ Summary:
 
 **Run the tests, demonstrating that they now succeed**
 
-![image]()
+![image](Lab7-pass.png)
 
 
 Key presses/commands: pressed `<up` twice to get `bash test.sh` then pressed `<return>`
