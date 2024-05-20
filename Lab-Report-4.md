@@ -28,6 +28,15 @@ summary:
 
 ![image](Lab7-vim-edit.png)
 
-Key pressed/commands: `vim ListExamples.java` (to use the vim editor to correct the code), pressed `<down>` around 17 times (to go to the correct line the error was on), pressed `<i>` to enter insert mode (to change the code), `<right>` around 4 times (to move the cursor to the correct spot), pressed `<delete>` to delete the characters (to remove the wrong part of the code), pressed `<2>` (the correct index number to updtate), pressed `<esc>` to exit insert mode pressed `<:>` and typed `wq` to save the changes.
+Key pressed/commands: `vim test.sh` (to edit and check the file) pressed `<i>` to enter insert pressed `<down>` twice to move the cursor to the correect line number, pressed `<right>` around 8 times to change the `TestListExample` to `ListExamplesTest` becasue that is the correct name for the test file pressed `<esc>` to exit insert mode pressed `<:>` and typed `wq` to save the edit, `vim ListExamples.java` (to use the vim editor to correct the code), pressed `<down>` around 17 times (to go to the correct line the error was on), pressed `<i>` to enter insert mode (to change the code), `<right>` around 4 times (to move the cursor to the correct spot), pressed `<delete>` to delete the characters (to remove the wrong part of the code), pressed `<2>` (the correct index number to updtate), pressed `<esc>` to exit insert mode pressed `<:>` and typed `wq` to save the changes.
 
 Summary:
+
+**Run the tests, demonstrating that they now succeed**
+
+![image]()
+
+
+Key presses/commands: pressed `<up` twice to get `bash test.sh` then pressed `<return>`
+
+Summary: 
