@@ -1,4 +1,4 @@
-**Log into ieng6**
+#Log into ieng6
 
 ![image](Log-IENG6.png)
 
@@ -8,7 +8,7 @@ The key presses I pressed was to type `ssh jotuazon@ieng6.ucsd.edu`
 
 Summary:
 
-**Clone your fork of the repository from your Github account (using the `SSH` URL)**
+#Clone your fork of the repository from your Github account (using the `SSH` URL)
 
 ![image](git-clone-ieng6.png)
 
@@ -16,7 +16,7 @@ I cloned and forked the repository then copied and pasted `<command c> + <comman
 
 Summary: The key presses I used were `<command c>` to copy the repository, `<,command v>` to paste the repository, then pressed `<return>` to clone it.
 
-**Run the tests, demonstrating that they fail**
+#Run the tests, demonstrating that they fail
 
 ![image](Lab7-fail.png)
 
