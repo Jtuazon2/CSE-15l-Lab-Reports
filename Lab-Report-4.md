@@ -40,3 +40,9 @@ Summary:
 Key presses/commands: pressed `<up` twice to get `bash test.sh` then pressed `<return>`
 
 Summary: 
+
+
+**Commit and push the resulting change to your Github account (you can pick any commit message!)**
+
+![image](Git-Commands.png)
+![image](lab7-github.png)
