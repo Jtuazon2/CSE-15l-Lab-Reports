@@ -1,4 +1,4 @@
-#Log into ieng6
+**Log into ieng6**
 
 ![image](Log-IENG6.png)
 
@@ -8,7 +8,7 @@ The key presses I pressed was to type `ssh jotuazon@ieng6.ucsd.edu`
 
 Summary:
 
-#Clone your fork of the repository from your Github account (using the `SSH` URL)
+##Clone your fork of the repository from your Github account (using the `SSH` URL)
 
 ![image](git-clone-ieng6.png)
 
