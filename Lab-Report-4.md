@@ -44,5 +44,5 @@ Summary:
 
 **Commit and push the resulting change to your Github account (you can pick any commit message!)**
 
-![image](Git-Commands.png)
+![image](Git-Comamnds.png)
 ![image](lab7-github.png)
