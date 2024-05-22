@@ -40,7 +40,7 @@ Summary: the command `vim` allows me to edit the code in terminal but to actuall
 
 Key presses/commands: pressed `<up> <up>` to get `bash test.sh` then pressed `<return>`
 
-Summary: In order to rerun the command without retying it, I pressed `<up>` to see all the previous commands
+Summary: In order to rerun the command without retying it, I pressed `<up>` to see all the previous commands and the command `bash test.sh` is to start the JUnit test and see of they passed.
 
 
 **Commit and push the resulting change to your Github account (you can pick any commit message!)**
