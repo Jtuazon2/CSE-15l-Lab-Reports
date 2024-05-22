@@ -6,7 +6,7 @@ In order to do this, i typed in `ssh jotuazon@ieng6.ucsd.edu` in order to log in
 
 The key presses I pressed was to type `ssh jotuazon@ieng6.ucsd.edu`
 
-Summary:
+Summary: I used the command `ssh` to log into the ieng6 account.
 
 **Clone your fork of the repository from your Github account (using the `SSH` URL)**
 
