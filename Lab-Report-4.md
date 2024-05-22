@@ -22,7 +22,7 @@ Summary: The key presses I used were `<command c>` to copy the repository, `<,co
 
 Key presses/commands: `cd` (to lab7) `<return>`, `ls` (to list out the contents of lab7) `<return>`, then typed `bash test.sh` (to run the tests)
 
-summary: I used the command `cd` to change into the correct directory then used the command `ls` to list out the contents. I then used the commabd `bash test.sh` to test and see that there the test cases was failing.
+summary: I used the command `cd` to change into the correct directory then used the command `ls` to list out the contents. I then used the command `bash test.sh` to test and see that there the test cases was failing.
 
 **Edit the code file to fix the failing test**
 
