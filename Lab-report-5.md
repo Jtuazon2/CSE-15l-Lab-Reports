@@ -1,3 +1,5 @@
+Student: I am having trouble figuring out why my output does not seem like it is correct. I tried different ways of debugging the code but I still can not solve this problem please help. Here is the code and the output.
+
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
@@ -51,3 +53,4 @@ fi
 
 # step 5: run the tests and report the grade based on the test result.
 ```
+![image](la
