@@ -1,4 +1,4 @@
-Student: I am having trouble figuring out why my output does not seem like it is correct. I tried different ways of debugging the code but I still can not solve this problem please help. I think there is a bug in the code. Here is the code and the output. 
+Student: I am having trouble figuring out why my output does not seem like it is correct, it should show the test case and which tests fail and pass. I tried different ways of debugging the code but I still can not solve this problem please help. I think there is a bug in the code. Here is the code and the output. 
 
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
@@ -83,3 +83,7 @@ public class TestListExamples {
 }
 ```
 ![image](Lab5-error2.png)
+
+Tutor: It seems like you are not returning anything in the testMergeRightEnd() method. You can either make it return something or make it a void method. Being a void means that you dont have to return anything essentially.
+
+Student: Thank you it started to work now.
