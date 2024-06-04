@@ -1,4 +1,4 @@
-Student: I am having trouble figuring out why my output does not seem like it is correct. I tried different ways of debugging the code but I still can not solve this problem please help. Here is the code and the output.
+Student: I am having trouble figuring out why my output does not seem like it is correct. I tried different ways of debugging the code but I still can not solve this problem please help. I think there is a bug in the code. Here is the code and the output. 
 
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
@@ -53,4 +53,33 @@ fi
 
 # step 5: run the tests and report the grade based on the test result.
 ```
-![image](la
+![image](Lab5-error.png)
+
+Tutor: This could be a problem with the argument with the Git clone area because _____. When trying to do commands in bash and there are arguments, you can try using `$1` up to `9` which represents the arguments so `1` represents the first argument and `$9` represents the ninth argument.
+
+Student: I just tried that right now and it seem like it work however I got another bug but this time in a .java file. Here is the code and output.
+
+```
+import static org.junit.Assert.*;
+import org.junit.*;
+import java.util.Arrays;
+import java.util.List;
+
+class IsMoon implements StringChecker {
+  public boolean checkString(String s) {
+    return s.equalsIgnoreCase("moon");
+  }
+}
+
+public class TestListExamples {
+  @Test(timeout = 500)
+  public testMergeRightEnd() {
+    List<String> left = Arrays.asList("a", "b", "c");
+    List<String> right = Arrays.asList("a", "d");
+    List<String> merged = ListExamples.merge(left, right);
+    List<String> expected = Arrays.asList("a", "a", "b", "c", "d");
+    assertEquals(expected, merged);
+  }
+}
+```
+![image](Lab5-error2.png)
