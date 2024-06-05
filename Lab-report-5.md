@@ -92,7 +92,7 @@ Student: Thank you very much, it started to work now.
 ![image](Lab5-correct.png)
 
 **File and Directory Structure**
-
+![imaga](Lab5-structure.png)
 
 **Contents of file before fixing the bug**
 TestListExamples.java file: 
