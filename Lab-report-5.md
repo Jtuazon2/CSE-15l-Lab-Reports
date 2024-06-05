@@ -176,7 +176,8 @@ fi
 **Command Lines Used**
 
 `bash https://github.com/ucsd-cse15l-f22/list-methods-lab3`
-`https://github.com/ucsd-cse15l-f22/list-methods-compile-error`
+
+`bash https://github.com/ucsd-cse15l-f22/list-methods-compile-error`
 
 **Description of what to edit to fix the bug**
 
