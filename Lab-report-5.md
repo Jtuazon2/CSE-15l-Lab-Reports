@@ -86,7 +86,7 @@ public class TestListExamples {
 ```
 ![image](Lab5-error2.png)
 
-Tutor: It seems like you are not returning anything in the testMergeRightEnd() method. You can either make it return something or make it a void method. Being a void means that you dont have to return anything essentially.
+Tutor: It seems like you are not returning anything in the `testMergeRightEnd()` method. You can either make it return something or make it a void method. Being a void means that you dont have to return anything essentially.
 
 Student: Thank you very much, it started to work now.
 ![image](Lab5-correct.png)
