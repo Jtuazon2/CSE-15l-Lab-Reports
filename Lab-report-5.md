@@ -57,7 +57,7 @@ fi
 ```
 ![image](Lab5-error.png)
 
-Tutor: This could be a problem with the argument with the Git clone because the parameter that is passed, which is a repository, is in the first parameter which argument is the git repository link located at? When trying to do commands in bash and there are arguments, you can try using `$1` up to `9` which represents the arguments so `1` represents the first argument and `$9` represents the ninth argument.
+Tutor: This could be a problem with the argument with the Git clone because the parameter that is passed, which is a repository. Which argument number is the git repository link located at? When trying to do commands in bash and there are arguments, you can try using `$1` up to `9` which represents the arguments so `1` represents the first argument and `$9` represents the ninth argument.
 
 Student: I just tried that right now and it seem like it work however I got another bug but this time in a .java file. Here is the code and output.
 
